@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: hacbs-test-project
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhn-support-djodha-tenant/hacbs-test-project/hacbs-test-project@sha256:a4d09c3cc33cea290df11105cb7d9df02aa9dd6439f441682c3b3a635c0d9844
+      - image: quay.io/redhat-user-workloads-stage/rhn-support-djodha-tenant/hacbs-test-project/hacbs-test-project@sha256:e49579ff06a70c0473f06ecb3bdde3c8b36eb9e6c17623a754e126000a0be29f
         name: hacbs-jvm-build-test-project
         resources: {}
 status: {}
