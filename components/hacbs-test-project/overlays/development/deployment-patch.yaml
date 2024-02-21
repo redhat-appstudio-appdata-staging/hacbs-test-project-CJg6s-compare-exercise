@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhn-support-djodha-tenant/hacbs-test-project/hacbs-test-project@sha256:75f596187f9ee2b3fe6b88b9bee085a801d86a38151c818c9316d50a10699a34
+      - image: quay.io/redhat-user-workloads-stage/rhn-support-djodha-tenant/hacbs-test-project/hacbs-test-project@sha256:1a4598572b98cb4cd85fb0bbd60f2cf1052cd4179f9bf7aab95495b40439632f
         name: hacbs-jvm-build-test-project
         resources: {}
 status: {}
